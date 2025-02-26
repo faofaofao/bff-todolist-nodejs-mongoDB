@@ -10,8 +10,8 @@ const listSchema = new mongoose.Schema({
         type: Boolean,
         default: false,
     }
-})
+});
 
-const List = mongoose.model('newToDoList', listSchema)
+const List = mongoose.model('newToDoList', listSchema);
 
 export default List;
